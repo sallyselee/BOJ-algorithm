@@ -8,7 +8,7 @@ int main() {
     cin >> n;
 
     while (1) {
-        if (n == 1) {
+        if (n == 1) {           // Too many manual exception handling, the author thinks
             break;
         }
 
@@ -47,7 +47,7 @@ int main() {
                 }
             }
 
-            if (nIsNotPrime == 0) {
+            if (nIsNotPrime == 0) {     // Wasn't considered at first time
                 cout << n << endl;
                 n /= n;
             }
